@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Noah";
+  src: local("Noah"), url(../fonts/Noah-Regular.otf) format("woff");
+}
+
+@font-face {
+  font-family: "Noah Bold";
+  src: local("Noah Bold"), url(../fonts/Noah-Bold.otf) format("woff");
+}
+
+body {
+  margin: 0;
+  font-family: "Noah", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  height: 100vh;
+  color: #121b63;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
